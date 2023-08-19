@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1673291773 source:c:\users\07har\desktop\c\cbtest\main.c
+	<stdio.h>
+	<string.h>
+
