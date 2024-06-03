@@ -1,0 +1,4 @@
+hardik 203 100
+singla 204 1000
+hardik 1 100
+singla 2 1220

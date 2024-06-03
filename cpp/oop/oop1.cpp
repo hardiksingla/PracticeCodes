@@ -66,7 +66,7 @@ public:
     }
   }
   virtual void work(){
-    cout << "employee works";
+    cout << "employee works"<<endl;
   }
 };
 class Developer : public Employee
@@ -78,7 +78,7 @@ public:
         FavLanguage = favLanguage;
       }
   void fixBug(){
-    cout<< Name << " fixed the bug using " << FavLanguage;
+    cout<< Name << " fixed the bug using " << FavLanguage<<endl;
   }
 
 };
@@ -92,6 +92,7 @@ int main()
   dev1.introduction();
   dev1.fixBug();
   Employee * e1= &dev1;
+  dev1.work();
   e1->work();
 
 
